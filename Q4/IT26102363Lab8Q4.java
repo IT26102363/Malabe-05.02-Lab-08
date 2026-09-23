@@ -3,15 +3,15 @@ public class IT26102363Lab8Q4 {
 
     public static void main(String[] args) {
 		
-		int array [] = new int[6];
+		int array [] = new int[8];
 		int num;
 		int studentid;
 		
 		Scanner input = new Scanner(System.in);
 		
 		
-        for(int i=0; i<6; i++){
-			System.out.print("Enter a Positive number (" + (i+1) + "/6): ");
+        for(int i=0; i<8; i++){
+			System.out.print("Enter a Positive number (" + (i+1) + "/8): ");
 			array[i] = input.nextInt();
 			
 		
